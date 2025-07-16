@@ -1,0 +1,3207 @@
+
+
+<!doctype html>
+<html id="html" lang="en">
+<head><title>
+	Token Tracker | BaseScan
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="format-detection" content="telephone=no" />
+    <meta name="Description" content="The list of ERC-20 Tokens and their Prices, Market Capitalizations and the Number of Holders in the Base Blockchain on BaseScan." /> <meta name="author" content="basescan.org" /> <meta name="keywords" content="Base, explorer, search, blockchain, crypto, currency, api endpoints, api pro service, eth api provider, base api, base block explorer, base blockchain explorer" /> <meta property="og:title" content="Token Tracker | BaseScan" /> <meta property="og:description" content="The list of ERC-20 Tokens and their Prices, Market Capitalizations and the Number of Holders in the Base Blockchain on BaseScan." /> <meta property="og:type" content="website" /> <meta property="og:site_name" content="Base Explorer" /> <meta property="og:url" content="http://basescan.org/tokens" /> <meta property="og:image" content="https://basescan.org/assets/base/images/og.jpg?v=25.7.1.2" /> <meta property="og:image:url" content="https://basescan.org/assets/base/images/og-preview.jpg?v=25.7.1.2" /> <meta property="og:image:alt" content="Visit basescan.org" /> <meta name="twitter:card" content="summary" /> <meta name="twitter:title" content="Token Tracker | BaseScan" /> <meta property="twitter:description" content="The list of ERC-20 Tokens and their Prices, Market Capitalizations and the Number of Holders in the Base Blockchain on BaseScan." /> <meta name="twitter:site" content="@basescan" /> <meta property="twitter:image" content="https://basescan.org/assets/base/images/og-preview.jpg?v=25.7.1.2" /> 
+
+    <link rel="shortcut icon" href="/assets/generic/html/favicon.ico?v=25.7.1.2">
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TWEL8GRQ12"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config','G-TWEL8GRQ12', { 'anonymize_ip': true });
+    </script>
+    
+
+    <script>
+        //Search box text ad
+        var availableAd = [];
+        var gotAd = [];
+
+        
+        availableAd = ["<div class='p-2'><a href='https://goto.etherscan.com/rd/ITZ3JHF7U9HFFU3ITRAVK6M7B' rel='nofollow' target='_blank' data-bs-toggle='tooltip' data-bs-trigger='hover' title='Links to an External Advertiser site' class='search-panel-ads d-flex align-items-center p-2 rounded'><div class='me-2'><img width='22' src='https://etherscan.io/images/gen/betpanda_2_20.png?v=3' alt='Ad'></div><div class='text-truncate'><h6 class='d-flex align-items-center fs-sm text-dark mb-0'><div class='text-truncate me-2'>Betpanda - Anon crypto casino with instant wd's & 10% weekly cashback.</div><span class='d-none d-sm-inline-block small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Sponsored</span><span class='d-inline-block d-sm-none small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Ad</span></h6></div></a></div>"];
+        gotAd = ["ShowAds					"];
+        
+    </script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/assets/vendor/font-awesome/css/all.min.css?v=25.7.1.2">
+    <link rel="stylesheet" href="/assets/vendor/autocomplete/dist/css/autocomplete.min.css?v=25.7.1.2" />
+
+    <link rel="stylesheet" href="/assets/css/theme.min.css?v=25.7.1.2">
+    <link rel="stylesheet" href="/assets/base/css/base.min.css?v=25.7.1.2">
+    <link rel="stylesheet" href="/assets/css/custom.css?v=25.7.1.2">
+
+    <script src="/assets/vendor/jquery/dist/jquery.min.js?v=25.7.1.2"></script>
+    <script type="text/javascript" src="/jss/blockies.js?v=25.7.1.2"></script>
+
+    <script type="text/javascript" src="/assets/js/theme-appearance.js?v=25.7.1.2"></script>
+
+    <style>
+        .autolink-safari a {
+            pointer-events: none !important;
+            text-decoration: none !important;
+            color: inherit !important;
+        }
+
+        #masterNoticeBar div.alert a{
+            color:#fff !important; 
+            text-decoration: underline !important;
+        }
+
+        .word-break{word-break: break-all !important;}
+        .min-with50{min-width: 50px !important;}
+    </style>
+
+    <style> .djtuzhwxjec { -ms-flex-pack: center; justify-content: center; } .aa8yk97vt7u { border-top: 1px solid #e7eaf3 !important; } body.dark-mode .aa8yk97vt7u { border-color: #18365b !important; } @media (min-width: 992px) { .bq9j64vzwqb { display: block !important; } } @media (min-width: 992px) { .cpsnrf5mzmw { display: inline-block !important; } }  </style>
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/datatables/datatables.min.css?v=25.7.1.2" />
+    <style>
+        .dataTable > thead > tr > th[class*="sort"]:before,
+        .dataTable > thead > tr > th[class*="sort"]:after {
+            content: "" !important;
+        }
+
+        .dataTables_processing {
+            z-index: 100;
+        }
+    </style>
+<meta name="description" content="The list of ERC-20 Tokens and their Prices, Market Capitalizations and the Number of Holders in the Base Blockchain on BaseScan." /></head>
+
+<body id="body" class="d-flex flex-column min-vh-100">
+
+    <section id="masterNoticeBar">
+        <!--Maintenance Message-->
+        
+        <!--End Maintenance Message-->
+    </section>
+
+    <!-- ========== TOPBAR ========== -->
+    <section id="masterTopBar" class="sticky-top bg-white border-bottom py-2 d-print-none">
+        
+        <div class="container-xxl d-flex align-items-center justify-content-between">
+            
+            <div id="ethPrice" class="d-none d-md-flex align-items-center gap-4 w-100 fs-sm">                
+                <div class="text-muted"><span class="text-muted">ETH Price:</span> <a href='/chart/price'>$3,031.43</a><span data-bs-toggle="tooltip" data-bs-placement="top" title="Changes in the last 24 hours"><span class='text-success'> (+2.52%)</span></span></div>
+                </div>
+
+            <div class="d-flex justify-content-end align-items-center gap-2 w-100">
+                <div id="frmMaster" class="search-panel-container flex-grow-1 position-relative" style="width: 30rem;">
+	
+                    <form action="/search" method="GET" autocomplete="off" spellcheck="false" class="auto-search-max-height">
+                        <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                            <i class="fa-regular fa-search fs-5 text-secondary"></i>
+                        </span>
+
+                        <input type="text" class="form-control form-control-lg bg-light bg-focus-white pe-20" autocomplete="off" spellcheck="false" id="search-panel" name="q" placeholder="Search by Address / Txn Hash / Block / Token / Domain Name" aria-describedby="button-header-search" onkeyup="handleSearchText(this);" maxlength="68" style="padding-left: 2.375rem;" />
+
+                        <a href="javascript:;" class="clear-icon d-none align-items-center position-absolute top-0 bottom-0 my-auto d-flex align-items-center" style="right: 3.375rem; cursor:pointer;">
+                            <i class="fa-regular fa-xmark fs-5 text-secondary"></i>
+                        </a>
+                        <a href="javascript:;" class="search-icon d-none btn btn-sm btn-white my-1.5 align-items-center position-absolute top-0 bottom-0 d-flex align-items-center" style="right: 0.75rem; cursor:pointer;">
+                            <i class="fa-regular fa-arrow-turn-down-left text-secondary"></i>
+                        </a>
+
+                        <input type="hidden" value="" id="hdnSearchText" />
+                        <input type="hidden" value="" id="hdnSearchLabel" />
+                        <input id="hdnIsTestNet" value="False" type="hidden" />
+
+                        <span class="shortcut-slash-icon align-items-center position-absolute top-0 bottom-0 align-items-center d-none d-sm-flex" title="Search" style="right: 0.5rem;">
+                            <kbd class="bg-dark bg-opacity-25 fw-semibold px-2 py-0.5 text-white">/</kbd>
+                        </span>
+                    </form>
+                
+</div>
+
+                <div id="divThemeSetting" class="dropdown d-none d-lg-block">
+                    <button id="dropdownMenuTopbarSettings" class="btn btn-lg btn-white text-primary content-center" type="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" style="width: 2.375rem; height: 2.375rem;">
+                        <span class="theme-btn-main"><i class="far fa-sun-bright theme-icon-active" data-href="#fa-sun-bright"></i></span>
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn active" data-bs-theme-value="light" onclick="setThemeMode('light');">
+                                <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dim" onclick="setThemeMode('dim');">
+                                <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dark" onclick="setThemeMode('dark');">
+                                <i class="far fa-moon fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                            </button>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/settings">
+                                <i class="far fa-gear fa-fw dropdown-item-icon me-1"></i> Site Settings <i class="far fa-arrow-right ms-1"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="divTestNet" class="dropdown d-none d-lg-block">
+                    <button class="btn btn-lg btn-white content-center p-0" type="button" id="dropdownTopbarNetworks" data-bs-toggle="dropdown" aria-expanded="false" style="width: 2.375rem; height: 2.375rem;">
+                        <img width="18" data-img-theme="light" src="/assets/base/images/svg/logos/chain-light.svg?v=25.7.1.2" alt="Base Logo">
+                        <img width="18" data-img-theme="dim" src="/assets/base/images/svg/logos/chain-dim.svg?v=25.7.1.2" alt="Base Logo">
+                        <img width="18" data-img-theme="dark" src="/assets/base/images/svg/logos/chain-dark.svg?v=25.7.1.2" alt="Base Logo">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks">
+                        
+                        <li><a class="dropdown-item active" href="https://basescan.org">Base Mainnet</a></li>
+                        <li><hr class="dropdown-divider"></li><li><a class="dropdown-item" href="https://sepolia.basescan.org">Base Sepolia Testnet</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== TOPBAR ========== -->
+
+    <!-- ========== HEADER ========== -->
+    <header id="masterHeader" class="header border-bottom d-print-none">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0">
+            <div class="container-xxl position-relative">
+                <a class="navbar-brand" href="/" target="_parent" aria-label="BaseScan">
+                    
+                    <img width="130" data-img-theme="light" src="/assets/base/images/svg/logos/logo-light.svg?v=25.7.1.2" alt="BaseScan Logo">
+                    <img width="130" data-img-theme="dim" src="/assets/base/images/svg/logos/logo-dim.svg?v=25.7.1.2" alt="BaseScan Logo">
+                    <img width="130" data-img-theme="dark" src="/assets/base/images/svg/logos/logo-dark.svg?v=25.7.1.2" alt="BaseScan Logo">
+                </a>
+
+                <div class="d-flex align-items-center gap-4">
+                    
+                    <a class="link-dark d-block d-lg-none" href="/login">
+                        <i class="far fa-user-circle me-1"></i> Sign In
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-1 gap-lg-0 pt-4 pt-lg-0">
+                        <li class="nav-item">
+                            <a href="/" id="LI_default" class="nav-link" aria-current="page">
+                                Home
+                            </a>
+                        </li>
+
+                        
+                        <!-- Blockchain -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_blockchain" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blockchain</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li>
+                                    <a href="/txs" id="LI12" class="dropdown-item">
+                                        Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsEnqueued" id="LI84" class="dropdown-item">
+                                        Latest L1→L2 Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsExit" id="LI86" class="dropdown-item">
+                                        Latest L2→L1 Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsInternal" id="LI14" class="dropdown-item">
+                                        Contract Internal Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsAA" id="LITxsAA" class="dropdown-item">
+                                        AA Transactions <span class="badge border bg-light text-muted">Beta</span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txnAuthList" id="LITxsAuth" class="dropdown-item">
+                                        EIP-7702 Authorizations <span class="badge border bg-light text-muted">Beta</span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/blocks" id="LI_blocks" class="dropdown-item">
+                                        View Blocks
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/batches" id="LI91" class="dropdown-item">
+                                        View L1 Transaction Batches
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/statebatches" id="LI92" class="dropdown-item">
+                                        View L1 State Batches
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/accounts" id="LI_accountall" class="dropdown-item">
+                                        Top Accounts
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/contractsVerified" id="LI_contract_verified" class="dropdown-item">
+                                        Verified Contracts
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Blockchain -->
+                        
+                        <!-- Tokens -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_tokens" class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tokens</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li>
+                                    <a href="/tokens" id="LI21" class="dropdown-item active">
+                                        Top Tokens <span class="small text-muted">(ERC-20)</span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/tokentxns" id="LI1" class="dropdown-item">
+                                        Token Transfers <span class="small text-muted">(ERC-20)</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Tokens -->
+                        
+                        <!-- NFTs -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_Nfts" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">NFTs</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                
+                                
+                                
+                                
+                                
+                                 <li>
+                                    <a href="/nft-transfers" id="LI65" class="dropdown-item">
+                                        Latest Transfers
+                                    </a>
+                                </li>
+                                
+                                 <li>
+                                    <a href="/nft-latest-mints" id="LI66" class="dropdown-item">
+                                        Latest Mints
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End NFTs -->
+                        
+                        <!-- Resrouces -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_resources" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li>
+                                    <a href="/charts" id="LI_charts2" class="dropdown-item">
+                                        Charts &amp;  Stats
+                                    </a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </li>
+                        <!-- End Resrouces -->
+                        
+                        <!-- Developers -->
+                        <li class="nav-item dropdown">
+                            <a href="#" id="li_developers" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Developers</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                <li>
+                                    <a href="https://etherscan.io/apis?id=8453" id="LI5" class="dropdown-item" target="_blank">
+                                        API Plans <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://docs.etherscan.io/etherscan-v2" id="LI6" class="dropdown-item" target="_blank">
+                                        API Documentation
+                                    </a>
+                                </li>
+                                
+                                 <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                
+                                <li>
+                                    <a href="/code-reader" id="A1" class="dropdown-item">
+                                        Code Reader <span class="badge border bg-light text-muted">Beta</span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/verifyContract" id="LI17" class="dropdown-item">
+                                        Verify Contract
+                                    </a>
+                                </li>
+                                
+                                 <li>
+                                    <a href="/find-similar-contracts" id="LI55" class="dropdown-item">
+                                        Similar Contract Search
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/contractdiffchecker" id="LI54" class="dropdown-item">
+                                        Contract Diff Checker
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/vyper" id="LI27" class="dropdown-item">
+                                        Vyper Online Compiler
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/opcode-tool" id="LI24" class="dropdown-item">
+                                        Bytecode to Opcode
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/pushTx" id="LI10" class="dropdown-item">
+                                        Broadcast Transaction
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Developers -->
+                        
+                        <!-- More -->
+                        <li class="nav-item dropdown position-initial">
+                            <a href="javascript:;" id="LI_services2" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <div class="dropdown-menu dropdown-menu-border dropdown-menu-mega">
+                                <div class="row">
+                                    <div class="col-lg order-last order-lg-first">
+                                        <div class="d-flex flex-column bg-light h-100 rounded-3 p-5">
+                                            <div>
+                                                <h6>Tools &amp; Services</h6>
+                                                <p>Discover more of BaseScan's tools and services in one place.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Tools</h6>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                 <a href="/inputdatadecoder" id="A3" class="dropdown-item">
+                                                     <i class="far fa-file-binary dropdown-item-icon fa-fw me-1"></i>Input Data Decoder <span class="badge border bg-light text-muted">Beta</span>
+                                                 </a>
+                                             </li>
+                                            
+                                            <li>
+                                                <a href="/unitconverter" id="LI50" class="dropdown-item">
+                                                    <i class="far fa-arrows-rotate dropdown-item-icon fa-fw me-1"></i>Unit Converter
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/exportData" id="LI51" class="dropdown-item">
+                                                    <i class="far fa-download fa-fw me-1"></i>CSV Export
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/balancecheck-tool" id="LI52" class="dropdown-item">
+                                                    <i class="far fa-file-invoice-dollar fa-fw me-1"></i>Account Balance Checker
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Explore</h6>
+                                        <ul class="list-unstyled">
+                                            
+                                            <li>
+                                                <a href="/labelcloud" id="LI41" class="dropdown-item">
+                                                    <i class="far fa-signs-post dropdown-item-icon fa-fw me-1"></i>Label Cloud
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/name-lookup" id="LI26" class="dropdown-item">
+                                                    <i class="far fa-magnifying-glass-chart dropdown-item-icon fa-fw me-1"></i>Domain Name Lookup
+                                                </a>
+                                            </li>
+                                                                                        
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Services</h6>
+                                        <ul class="list-unstyled">
+                                            
+                                            <li>
+                                                <a href="/tokenapprovalchecker" id="LI49" class="dropdown-item">
+                                                    <i class="far fa-shield-keyhole dropdown-item-icon fa-fw me-1"></i>Token Approvals <span class="badge border bg-light text-muted">Beta</span>
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/verifiedSignatures" id="LI29" class="dropdown-item">
+                                                    <i class="far fa-signature-lock dropdown-item-icon fa-fw me-1"></i>Verified Signature
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/advanced-filter" id="LI31" class="dropdown-item">
+                                                    <i class="far fa-filters dropdown-item-icon fa-fw me-1"></i>Advanced Filter <span class="badge border bg-light text-muted">Beta</span>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End More -->
+                        
+
+                        <li class="nav-item dropdown d-block d-lg-none">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explorers</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li><a class="dropdown-item active" href="https://basescan.org">Base Mainnet</a></li>
+                                <li><hr class="dropdown-divider"></li><li><a class="dropdown-item" href="https://sepolia.basescan.org">Base Sepolia Testnet</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Appearance & Settings -->
+                        <li class="nav-item dropdown d-block d-lg-none">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Appearance &amp; Settings</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn active" data-bs-theme-value="light" onclick="setThemeMode('light');">
+                                        <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dim" onclick="setThemeMode('dim');">
+                                        <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dark" onclick="setThemeMode('dark');">
+                                        <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                                    </button>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/settings">
+                                        <i class="far fa-gear fa-fw dropdown-item-icon me-1"></i> Site Settings <i class="far fa-arrow-right ms-1"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- End Appearance & Settings -->
+                        
+                        
+                        <li class="nav-item align-self-center d-none d-lg-block">
+                            <span class="text-secondary">|</span>
+                        </li>
+                        
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" href="/login">
+                                <i class="far fa-user-circle me-1"></i> Sign In
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- ==========  END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" class="main-content" role="main">
+        <input type="hidden" name="hdnAgeText" id="hdnAgeText" value="Age" />
+        <input type="hidden" name="hdnDateTimeText" id="hdnDateTimeText" value="Date Time (UTC)" />
+        <input type="hidden" name="hdnAgeTitle" id="hdnAgeTitle" value="Click to show Age Format" />
+        <input type="hidden" name="hdnDateTimeTitle" id="hdnDateTimeTitle" value="Click to show Datetime Format" />
+        <input type="hidden" name="hdnTxnText" id="hdnTxnText" value="Txn Fee" />
+        <input type="hidden" name="hdnGasPriceText" id="hdnGasPriceText" value="Gas Price" />
+        <input type="hidden" name="hdnTxnFeeTitle" id="hdnTxnFeeTitle" value="(Gas Price * Gas Used by Txns) in ETH" />
+        <input type="hidden" name="hdnGasPriceTitle" id="hdnGasPriceTitle" value="Gas Price in Gwei" />
+        <input type="hidden" name="hdnSiteName" id="hdnSiteName" value="basescan" />
+        <input type="hidden" name="hdnSiteEmptyToken" id="hdnSiteEmptyToken" value="/assets/base/images/svg/empty-token.svg?v=25.7.1.2" />
+        <input type="hidden" name="hdnSiteShortUrl" id="hdnSiteShortUrl" value="basescan.org" />
+
+        
+    <!-- Page Header -->
+    <section class="container-xxl">
+        <div class="d-flex flex-wrap justify-content-between align-items-center border-bottom gap-3 py-5">
+            
+            <div class="d-flex flex-wrap align-items-center gap-1">
+                <h1 class="h5 mb-0">
+                    Token Tracker
+                    <span id="ContentPlaceHolder1_erc20InfoLink">(ERC-20)</span>
+                </h1>
+                <span class="text-muted text-break">
+                    </span>
+            </div>
+            
+
+            <!-- Button Ads -->
+            <div class="d-flex gap-2" data-nosnippet>
+                
+            </div>
+            <!-- End Button Ads -->
+        </div>
+    </section>
+    <!-- End Page Header -->
+
+    
+
+    
+    <section class="container-xxl pt-5 pb-12">
+        <!-- Card Tabs: ERC20 Tokens -->
+        <div id="ContentPlaceHolder1_divERC20Tokens" class="card">
+            
+            
+            
+
+            <!-- Data Info -->
+            <div id="ContentPlaceHolder1_divDataInfo" class="card-body d-flex flex-wrap align-items-center justify-content-between gap-3">
+                
+                <div>
+                     <span class="text-dark">
+                         A total of <strong>7,745,306</strong> Token Contracts found</span>
+                     <div class="d-block text-muted small">
+                         Showing <strong>490</strong> Tokens with OK or Neutral Reputation
+                     </div>
+                     
+                 </div>
+                
+
+                
+                <div>
+                    
+            <div class="dropdown order-md-2">
+                <button class="btn btn-sm btn-secondary" type="button" id="erc20TokenSearchButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="far fa-search"></i>
+                </button>
+
+                <div class="search-panel-container auto-search-max-height dropdown-menu dropdown-menu-sm-end" aria-labelledby="erc20TokenSearchButton" style="min-width: 10rem">
+                    <form action="/tokens" method="get" autocomplete="off" spellcheck="false">
+                        <div class="input-group" style="min-width: 20rem;">
+                            <input id="erc20TokenSearchInput" name="q" type="search" value="" class="form-control py-2"
+                                placeholder="Search for Token Name or Address" onkeyup="handleTokenSearch(this);" />
+                            <button class="btn btn-primary" type="submit">Find</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+                    
+                </div>
+                
+            </div>
+            <!-- End Data Info -->
+
+            
+            <div class="table-responsive">
+                
+                
+                <div id="ContentPlaceHolder1_tblErc20Tokens">
+                    <table class="table table-hover mb-0">
+                        <thead id="ContentPlaceHolder1_theadTknTable" class="align-middle text-nowrap">
+                            <tr>
+                                <th scope="col" width="20" class="text-center text-muted">#</th>
+                                <th scope="col">Token</th>
+                                
+                                <th scope="col">
+                                    <a href="/tokens?sort=price_usd&order=desc" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-title="Click for descending sort">Price</a>
+                                </th>
+                                <th scope="col">
+                                    <a href="/tokens?sort=percent_change_24h&order=desc" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-title="Click for descending sort">Change (%)</a>
+                                </th>
+                                <th scope="col">
+                                    <a href="/tokens?sort=24h_volume_usd&order=desc" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-title="Click for descending sort">Volume (24H)</a>
+                                </th>
+                                <th scope="col">
+                                    <i class="far fa-arrow-down-wide-short small text-secondary me-0.5"></i>
+                        <a href="/tokens?sort=marketcap&order=asc" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-title="Sorted in descending order, Click for ascending sort">
+                        Circulating Market Cap
+                        </a>
+                                    <i class="far fa-question-circle text-muted" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-title="Calculated by multiplying the number of tokens in circulating supply across all chains with the current market price per token."></i>
+                                </th>
+                                
+                                <th scope="col">
+                                    Onchain Market Cap
+                                    <i class="far fa-question-circle text-muted" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-title="Calculated by multiplying the token's Total Supply on Base with the current market price per token. Numbers may be unrealistic if the onchain supply is much larger than the reported circulating supply."></i>
+                                </th>
+                                
+                                <th scope="col">
+                                    <a href="/tokens?sort=holders&order=desc" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-title="Click for descending sort">Holders</a>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="align-middle text-nowrap">
+                            <tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9">
+                <img src='/token/images/backedcoin2_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed Coinbase Global</div>
+                    <span class="text-muted">(bCOIN)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$387.06">
+                    $387.06
+                </div>
+                <div class="text-muted small">
+                    0.127682 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $93.00
+            </td><td>--</td><td>$5,225,310.00&nbsp;&nbsp;&nbsp;</td><td><div>37</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x14a5f2872396802c3cc8942a39ab3e4118ee5038">
+                <img src='/token/images/btslabase_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed Tesla Inc</div>
+                    <span class="text-muted">(bTSLA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$313.47">
+                    $313.47
+                </div>
+                <div class="text-muted small">
+                    0.103407 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.01%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$940,410.00&nbsp;&nbsp;&nbsp;</td><td><div>1</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x24CB2B89844604C57350776D81e14765D03b91dE">
+                <img src='/token/images/zunamieth_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Zunami Omni ETH</div>
+                    <span class="text-muted">(zunETH)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$225.72">
+                    $225.72
+                </div>
+                <div class="text-muted small">
+                    0.074460 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $4.00
+            </td><td>--</td><td>$226.00&nbsp;&nbsp;&nbsp;</td><td><div>20,400</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x201ef6d718d9e5cd8b2dfe9739d6975fa81603cf">
+                <img src='/token/images/jpool_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">JSOL</div>
+                    <span class="text-muted">(JSOL)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$213.11">
+                    $213.11
+                </div>
+                <div class="text-muted small">
+                    0.070300 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>2.41%</span>
+            </td><td>
+                $413.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>1</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xc55e93c62874d8100dbd2dfe307edc1036ad5434">
+                <img src='/token/images/beefy_moobifi_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Moo BIFI</div>
+                    <span class="text-muted">(mooBIFI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$206.88">
+                    $206.88
+                </div>
+                <div class="text-muted small">
+                    0.068245 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.90%</span>
+            </td><td>
+                $10,278.00
+            </td><td>--</td><td>$211,431.00&nbsp;&nbsp;&nbsp;</td><td><div>62,280</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xA34C5e0AbE843E10461E2C9586Ea03E55Dbcc495">
+                <img src='/token/images/bnvdabase_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed NVIDIA Corp</div>
+                    <span class="text-muted">(bNVDA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$164.92">
+                    $164.92
+                </div>
+                <div class="text-muted small">
+                    0.054403 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $163.00
+            </td><td>--</td><td>$1,154,440.00&nbsp;&nbsp;&nbsp;</td><td><div>1</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x20b048fA035D5763685D695e66aDF62c5D9F5055">
+                <img src='/token/images/toucanbiochar_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Biochar</div>
+                    <span class="text-muted">(CHAR)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$154.77">
+                    $154.77
+                </div>
+                <div class="text-muted small">
+                    0.051055 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-2.00%</span>
+            </td><td>
+                $4,964.00
+            </td><td>--</td><td>$52,157.00&nbsp;&nbsp;&nbsp;</td><td><div>182</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x2F123cF3F37CE3328CC9B5b8415f9EC5109b45e7">
+                <img src='/token/images/bc3m_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed GOVIES 0-6 months EURO investment grade</div>
+                    <span class="text-muted">(bC3M)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$145.37">
+                    $145.37
+                </div>
+                <div class="text-muted small">
+                    0.047954 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-0.10%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>0</div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xcb17c9db87b595717c857a08468793f5bab6445f">
+                <img src='/token/images/cbltc_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Coinbase Wrapped LTC</div>
+                    <span class="text-muted">(cbLTC)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$97.04">
+                    $97.04
+                </div>
+                <div class="text-muted small">
+                    0.032011 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>2.45%</span>
+            </td><td>
+                $1,242,066.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>866</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x20c64dee8fda5269a78f2d5bdba861ca1d83df7a">
+                <img src='/token/images/bhighbacked_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed HIGH € High Yield Corp Bond</div>
+                    <span class="text-muted">(bHIGH)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$7.14">
+                    $7.14
+                </div>
+                <div class="text-muted small">
+                    0.002355 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-0.10%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>0</div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0f76d32cdccdcbd602a55af23eaf58fd1ee17245">
+                <img src='/token/images/berna_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed ERNA $ Ultrashort Bond</div>
+                    <span class="text-muted">(bERNA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$6.13">
+                    $6.13
+                </div>
+                <div class="text-muted small">
+                    0.002022 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-0.01%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>0</div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x52d134c6DB5889FaD3542A09eAf7Aa90C0fdf9E4">
+                <img src='/token/images/bibtabacked_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed IBTA $ Treasury Bond 1-3yr</div>
+                    <span class="text-muted">(bIBTA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$5.77">
+                    $5.77
+                </div>
+                <div class="text-muted small">
+                    0.001903 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>0</div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x2f11EeeE0bf21E7661A22dbBbb9068F4ad191b86">
+                <img src='/token/images/backedfiniu_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Backed Niu Technologies</div>
+                    <span class="text-muted">(bNIU)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$3.37">
+                    $3.37
+                </div>
+                <div class="text-muted small">
+                    0.001112 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>0</div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x2C8C89C442436CC6C0a77943E09c8Daf49Da3161">
+                <img src='/token/images/zeebu_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">ZEEBU</div>
+                    <span class="text-muted">(ZBU)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$2.75">
+                    $2.75
+                </div>
+                <div class="text-muted small">
+                    0.000907 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-0.15%</span>
+            </td><td>
+                $426,016.00
+            </td><td>--</td><td>$2,813,020,832.00&nbsp;&nbsp;&nbsp;</td><td><div>76,406</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0ceac003b0d2479bebec9f4b2ebad0a803759bbf">
+                <img src='/token/images/wfrax_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Wrapped Frax</div>
+                    <span class="text-muted">(WFRAX)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$2.48">
+                    $2.48
+                </div>
+                <div class="text-muted small">
+                    0.000818 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>12.25%</span>
+            </td><td>
+                $861,150.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>20</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x677db5a751fbd0b130ddc02715223d9da4a98f8f">
+                <img src='/token/images/metayield_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">MetaYield</div>
+                    <span class="text-muted">(MY)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$1.77">
+                    $1.77
+                </div>
+                <div class="text-muted small">
+                    0.000584 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.22%</span>
+            </td><td>
+                $146,484.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>9,603</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xad20523A7dC37bAbc1CC74897E4977232b3D02e5">
+                <img src='/token/images/gainsgusdc_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Gains Network USDC</div>
+                    <span class="text-muted">(gUSDC)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$1.21">
+                    $1.21
+                </div>
+                <div class="text-muted small">
+                    0.000399 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.02%</span>
+            </td><td>
+                $19,737.00
+            </td><td>--</td><td>$2,920,836.00&nbsp;&nbsp;&nbsp;</td><td><div>828</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x4772D2e014F9fC3a820C444e3313968e9a5C8121">
+                <img src='/token/images/yieldfi_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">YieldFi yUSD</div>
+                    <span class="text-muted">(yUSD)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$1.10">
+                    $1.10
+                </div>
+                <div class="text-muted small">
+                    0.000363 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $12,390.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>201</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0000000f2eb9f69274678c76222b35eec7588a65">
+                <img src='/token/images/yousd_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">yoVaultUSD</div>
+                    <span class="text-muted">(yoUSD)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$1.017">
+                    $1.017
+                </div>
+                <div class="text-muted small">
+                    0.000335 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.01%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>1,045</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0a1d576f3efef75b330424287a95a366e8281d54">
+                <img src='/token/images/aave_usdbc1.png?v=2' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Aave Base USDbC</div>
+                    <span class="text-muted">(aBasUSDbC)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.99986">
+                    $0.9999
+                </div>
+                <div class="text-muted small">
+                    0.000330 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-0.01%</span>
+            </td><td>
+                $6.00
+            </td><td>--</td><td>$752,725.00&nbsp;&nbsp;&nbsp;</td><td><div>25,357</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x69000dFD5025E82f48Eb28325A2B88a241182CEd">
+                <img src='/token/images/mahazaistablecoin_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">ZAI Stablecoin</div>
+                    <span class="text-muted">(ZAI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.997395">
+                    $0.9974
+                </div>
+                <div class="text-muted small">
+                    0.000329 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $15.00
+            </td><td>--</td><td>$1,057,338.00&nbsp;&nbsp;&nbsp;</td><td><div>38</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c">
+                <img src='/token/images/cbada_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Coinbase Wrapped ADA</div>
+                    <span class="text-muted">(cbADA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.756179">
+                    $0.7562
+                </div>
+                <div class="text-muted small">
+                    0.000249 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>2.26%</span>
+            </td><td>
+                $1,203,183.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>663</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xcb9fe0f506702e125843bcef0fc8123a44bb11a7">
+                <img src='/token/images/gpunet_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">GPUNET</div>
+                    <span class="text-muted">(GPU)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.500893">
+                    $0.5009
+                </div>
+                <div class="text-muted small">
+                    0.000165 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>3.76%</span>
+            </td><td>
+                $56,326.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>71</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xdca716b7360b76383e8f7b82aefcbe632fc381af">
+                <img src='/token/images/smokingduck_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">SmokingDuck</div>
+                    <span class="text-muted">(DUCK)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.48367654">
+                    $0.4837
+                </div>
+                <div class="text-muted small">
+                    0.000160 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>2587356.01%</span>
+            </td><td>
+                $205.00
+            </td><td>--</td><td>$25,151,180,158.00&nbsp;&nbsp;&nbsp;</td><td><div>3,155</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xB96450dCB16e4a30b999Cb5F4087bae9c0ffAc4e">
+                <img src='/token/images/treb_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">TREB</div>
+                    <span class="text-muted">(TREB)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.32746445">
+                    $0.3275
+                </div>
+                <div class="text-muted small">
+                    0.000108 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>6.62%</span>
+            </td><td>
+                $4,909.00
+            </td><td>--</td><td>$13,987,698.00&nbsp;&nbsp;&nbsp;</td><td><div>9,818</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x55365c9e68e70122020184f4441b498e8bf06ac6">
+                <img src='/token/images/qwlatoken_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Qawalla Token</div>
+                    <span class="text-muted">(QWLA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.303666">
+                    $0.3037
+                </div>
+                <div class="text-muted small">
+                    0.000100 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>2.49%</span>
+            </td><td>
+                $1,136.00
+            </td><td>--</td><td>$2,552,271.00&nbsp;&nbsp;&nbsp;</td><td><div>29</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xE9185Ee218cae427aF7B9764A011bb89FeA761B4">
+                <img src='/token/images/brztoken_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">BRZ Token</div>
+                    <span class="text-muted">(BRZ)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.17962">
+                    $0.1796
+                </div>
+                <div class="text-muted small">
+                    0.000059 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.34%</span>
+            </td><td>
+                $71,890.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>273</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x30c7235866872213f68cb1f08c37cb9eccb93452">
+                <img src='/token/images/prompttoken_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Prompt</div>
+                    <span class="text-muted">(PROMPT)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.17400458">
+                    $0.174
+                </div>
+                <div class="text-muted small">
+                    0.000057 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>18.96%</span>
+            </td><td>
+                $63,286,015.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>209,794</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x938171227ece879267122a36847b219cbd3b9d47">
+                <img src='/token/images/aiprotocol_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">AI Protocol</div>
+                    <span class="text-muted">(AI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.151818">
+                    $0.1518
+                </div>
+                <div class="text-muted small">
+                    0.000050 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$75,909,000.00&nbsp;&nbsp;&nbsp;</td><td><div>15,788</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0645bC5cDff2376089323Ac20Df4119e48e4BCc4">
+                <img src='/token/images/jojoexchange_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">JOJO</div>
+                    <span class="text-muted">(JOJO)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.139285">
+                    $0.1393
+                </div>
+                <div class="text-muted small">
+                    0.000046 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.90%</span>
+            </td><td>
+                $74.00
+            </td><td>--</td><td>$13,928,500.00&nbsp;&nbsp;&nbsp;</td><td><div>6,689</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x8d285df5be4570097e84241090fca8034ab18547">
+                <img src='/token/images/ethereumonbase_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">ETHEREUM ON BASE</div>
+                    <span class="text-muted">(ETHB)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.11841002">
+                    $0.1184
+                </div>
+                <div class="text-muted small">
+                    0.000039 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>4.19%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$118,410.00&nbsp;&nbsp;&nbsp;</td><td><div>407,201</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xD5B9dDB04f20eA773C9b56607250149B26049B1F">
+                <img src='/token/images/zunamizunusd_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Zunami Omni USD</div>
+                    <span class="text-muted">(zunUSD)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.086884">
+                    $0.0869
+                </div>
+                <div class="text-muted small">
+                    0.000029 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $124.00
+            </td><td>--</td><td>$553.00&nbsp;&nbsp;&nbsp;</td><td><div>15,082</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0963a1abaf36ca88c21032b82e479353126a1c4b">
+                <img src='/token/images/leetswap_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">leetswap.finance</div>
+                    <span class="text-muted">(LEET)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.06701077">
+                    $0.067
+                </div>
+                <div class="text-muted small">
+                    0.000022 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$89,593.00&nbsp;&nbsp;&nbsp;</td><td><div>4,346</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x19bf54d64bc776532ff03937b662226e4af59517">
+                <img src='/token/images/trumpproject_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Trump Project 2025</div>
+                    <span class="text-muted">(MAGA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.06271858">
+                    $0.0627
+                </div>
+                <div class="text-muted small">
+                    0.000021 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$12,700,450,502.00&nbsp;&nbsp;&nbsp;</td><td><div>28,620</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xbe1936a67f503e0eaf2434b0cf9f4e3d7100008a">
+                <img src='/token/images/prospective_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Prospective</div>
+                    <span class="text-muted">(PROS)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.04080836">
+                    $0.0408
+                </div>
+                <div class="text-muted small">
+                    0.000013 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.59%</span>
+            </td><td>
+                $6,731.00
+            </td><td>--</td><td>$411,349.00&nbsp;&nbsp;&nbsp;</td><td><div>7</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x3cf255a7a03d74b6f9d58456cbedbc0705626354">
+                <img src='/token/images/neuy_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">NEUY</div>
+                    <span class="text-muted">(NEUY)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.03650849">
+                    $0.0365
+                </div>
+                <div class="text-muted small">
+                    0.000012 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>3.58%</span>
+            </td><td>
+                $51,766.00
+            </td><td>--</td><td>$119,423.00&nbsp;&nbsp;&nbsp;</td><td><div>18</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xc5449fafc8711b6fa68192586c9aa9302503b939">
+                <img src='/token/images/gracytoken_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Gracy Token</div>
+                    <span class="text-muted">(GRACY)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.02100192">
+                    $0.021
+                </div>
+                <div class="text-muted small">
+                    0.000007 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.22%</span>
+            </td><td>
+                $765,475.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>1,670</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x6a72d3a87f97a0fee2c2ee4233bdaebc32813d7a">
+                <img src='/token/images/estatex_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">EstateX</div>
+                    <span class="text-muted">(ESX)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.01424111">
+                    $0.0142
+                </div>
+                <div class="text-muted small">
+                    0.000005 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>2.29%</span>
+            </td><td>
+                $6,920,965.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>6,381</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xc745a386605213139192d33b40e3f953941117cd">
+                <img src='/token/images/frgx_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">FRGX</div>
+                    <span class="text-muted">(FRGX)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.01063815">
+                    $0.0106
+                </div>
+                <div class="text-muted small">
+                    0.000004 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-1.47%</span>
+            </td><td>
+                $1,412.00
+            </td><td>--</td><td>$4,757.00&nbsp;&nbsp;&nbsp;</td><td><div>51</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x12c26138b666360AB2B7A1B149dF9Cf6642CDfBf">
+                <img src='/token/images/ironcladicl_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Ironclad Token</div>
+                    <span class="text-muted">(ICL)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.0081837">
+                    $0.0082
+                </div>
+                <div class="text-muted small">
+                    0.000003 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $176.00
+            </td><td>--</td><td>$46,740.00&nbsp;&nbsp;&nbsp;</td><td><div>191</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xb3ce4ce692e035720b25880f678871cfc5a863ca">
+                <img src='/token/images/basetools_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">BaseTools</div>
+                    <span class="text-muted">(BASE)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00818239">
+                    $0.0082
+                </div>
+                <div class="text-muted small">
+                    0.000003 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$818,239.00&nbsp;&nbsp;&nbsp;</td><td><div>1,175</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xff45161474c39cb00699070dd49582e417b57a7e">
+                <img src='/token/images/MT_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Mint Token</div>
+                    <span class="text-muted">(MT)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00774987">
+                    $0.0077
+                </div>
+                <div class="text-muted small">
+                    0.000003 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>2.49%</span>
+            </td><td>
+                $430.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>22,303</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x504a26cf29674bc77a9341e73f88ccecc864034c">
+                <img src='/token/images/sympai_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Sympson by Virtuals</div>
+                    <span class="text-muted">(SYMP)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00545266">
+                    $0.0055
+                </div>
+                <div class="text-muted small">
+                    0.000002 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.27%</span>
+            </td><td>
+                $8,039.00
+            </td><td>--</td><td>$5,452,655.00&nbsp;&nbsp;&nbsp;</td><td><div>63,017</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xe2c86869216aC578bd62a4b8313770d9EE359A05">
+                <img src='/token/images/emailtoken_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">EMAIL Token</div>
+                    <span class="text-muted">(EMT)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00463051">
+                    $0.0046
+                </div>
+                <div class="text-muted small">
+                    0.000002 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-2.79%</span>
+            </td><td>
+                $177,143.00
+            </td><td>--</td><td>$4,630,510.00&nbsp;&nbsp;&nbsp;</td><td><div>73,395</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x5b1e769e74fd7e532a48261ab42ee906f0090556">
+                <img src='/token/images/realtyx1_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">RealtyX</div>
+                    <span class="text-muted">(RX)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00390002">
+                    $0.0039
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-25.34%</span>
+            </td><td>
+                $920.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>72</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xcA5c7a459bECAAC1f2b5eE28bB8A29875B1a37A6">
+                <img src='/token/images/birb2_base_23.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Birb</div>
+                    <span class="text-muted">(BIRB)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00365638">
+                    $0.0037
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.35%</span>
+            </td><td>
+                $222.00
+            </td><td>--</td><td>$365,638.00&nbsp;&nbsp;&nbsp;</td><td><div>31,481</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xd3b0b58ec9516e4b875a075328e2cb059d4d54db">
+                <img src='/token/images/archai_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">ArchAI</div>
+                    <span class="text-muted">(archai)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00301224">
+                    $0.003
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-8.01%</span>
+            </td><td>
+                $530,900.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>506,893</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x2496a9AF81A87eD0b17F6edEaf4Ac57671d24f38">
+                <img src='/token/images/truffi_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Truffi</div>
+                    <span class="text-muted">(TRUFFI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00264019">
+                    $0.0026
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.14%</span>
+            </td><td>
+                $10.00
+            </td><td>--</td><td>$39,603.00&nbsp;&nbsp;&nbsp;</td><td><div>8,368</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0f1cfd0bb452db90a3bfc0848349463010419ab2">
+                <img src='/token/images/gurunetwork_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">GURU Token</div>
+                    <span class="text-muted">(GURU)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00229085">
+                    $0.0023
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>3.93%</span>
+            </td><td>
+                $76,980.00
+            </td><td>--</td><td>$156,625.00&nbsp;&nbsp;&nbsp;</td><td><div>12,429</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x8f4e4221ba88d4e9bb76ecfb91d7c5ce08d7d5b9">
+                <img src='/token/images/fumoney_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">FUMoney</div>
+                    <span class="text-muted">(FU)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00186504">
+                    $0.0019
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.96%</span>
+            </td><td>
+                $6.00
+            </td><td>--</td><td>$24,131.00&nbsp;&nbsp;&nbsp;</td><td><div>190</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xAfb89a09D82FBDE58f18Ac6437B3fC81724e4dF6">
+                <img src='/token/images/dogetokenbase_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">The Doge NFT</div>
+                    <span class="text-muted">(DOG)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00177732">
+                    $0.0018
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>4.17%</span>
+            </td><td>
+                $319,661.00
+            </td><td>--</td><td>$1,930,091.00&nbsp;&nbsp;&nbsp;</td><td><div>1,011,575</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xe13e40e8fdb815fbc4a1e2133ab5588c33bac45d">
+                <img src='/token/images/tribal_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Tribal</div>
+                    <span class="text-muted">(TRIBAL)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00174864">
+                    $0.0017
+                </div>
+                <div class="text-muted small">
+                    0.000001 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.11%</span>
+            </td><td>
+                $201.00
+            </td><td>--</td><td>$1,049,184.00&nbsp;&nbsp;&nbsp;</td><td><div>20,707</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x5d559ea7bb2dae4b694a079cb8328a2145fd32f6">
+                <img src='/token/images/socialmonster_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">SoMon</div>
+                    <span class="text-muted">(OwO)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00148239">
+                    $0.0015
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.20%</span>
+            </td><td>
+                $5.00
+            </td><td>--</td><td>$1,482,390.00&nbsp;&nbsp;&nbsp;</td><td><div>96,140</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xfbfd50db16b3a72db010641ee008a275ef2456ae">
+                <img src='/token/images/winnerscircle_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">The Winners Circle</div>
+                    <span class="text-muted">(HRSE)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00147906">
+                    $0.0015
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $1,087.00
+            </td><td>--</td><td>$35,497.00&nbsp;&nbsp;&nbsp;</td><td><div>5</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xc799ada44171b741abf41ee54fb1b47fda5960be">
+                <img src='/token/images/xoprotocol_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">XO Protocol</div>
+                    <span class="text-muted">(XOXO)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00121979">
+                    $0.0012
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-9.48%</span>
+            </td><td>
+                $568,316.00
+            </td><td>--</td><td>$2,439,583.00&nbsp;&nbsp;&nbsp;</td><td><div>35,803</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xdbe125089d0752ef458c0685436ace93a7f1f8ca">
+                <img src='/token/images/aqualibre_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Aqualibre</div>
+                    <span class="text-muted">(AQLA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00111701">
+                    $0.0011
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>4.93%</span>
+            </td><td>
+                $683.00
+            </td><td>--</td><td>$312,763.00&nbsp;&nbsp;&nbsp;</td><td><div>589</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x357655df177Fb0229DC8acA977114a420bf81799">
+                <img src='/token/images/rfc_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">ROYAL FINANCE COIN</div>
+                    <span class="text-muted">(RFC)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00109154">
+                    $0.0011
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.74%</span>
+            </td><td>
+                $9.00
+            </td><td>--</td><td>$5,457,700.00&nbsp;&nbsp;&nbsp;</td><td><div>1,264</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0f13fc8a93ab8edc9fde0a1e19aac693161599a5">
+                <img src='/token/images/scai_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">SecureChain AI</div>
+                    <span class="text-muted">(SCAI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00108291">
+                    $0.0011
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-5.78%</span>
+            </td><td>
+                $4,788.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>26</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x3e62fED35c97145e6B445704B8CE74B2544776A9">
+                <img src='/token/images/earnm_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">EARNM</div>
+                    <span class="text-muted">(EARNM)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00093208">
+                    $0.0009
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.27%</span>
+            </td><td>
+                $641,302.00
+            </td><td>--</td><td>$2,244,541.00&nbsp;&nbsp;&nbsp;</td><td><div>10,631</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x8d3419b9a18651f3926a205ee0b1acea1e7192de">
+                <img src='/token/images/thelawofattractioncoin_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Law of  Attraction</div>
+                    <span class="text-muted">(LOA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00074596">
+                    $0.0007
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>3.90%</span>
+            </td><td>
+                $126.00
+            </td><td>--</td><td>$74,596.00&nbsp;&nbsp;&nbsp;</td><td><div>322,969</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x2531ec1720e5d1bc82052585271d4be3f43e392f">
+                <img src='/token/images/basedbobr_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Based BOBR</div>
+                    <span class="text-muted">(BOBR)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00021852">
+                    $0.0002
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-1.44%</span>
+            </td><td>
+                $3,771.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>1,309,600</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x314da69dE85145FDd5b7580971e9DB0388A2cDc4">
+                <img src='/token/images/basedswap_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">BasedSwap</div>
+                    <span class="text-muted">(BSW)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00021648">
+                    $0.0002
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $18.00
+            </td><td>--</td><td>$21,648.00&nbsp;&nbsp;&nbsp;</td><td><div>1,263</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x4b556f3a476b58be7F35DF77EdD68FbE5076F706">
+                <img src='/token/images/mintstakeshare_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">MintStakeShare</div>
+                    <span class="text-muted">(MSS)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00020037">
+                    $0.0002
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.59%</span>
+            </td><td>
+                $1,085.00
+            </td><td>--</td><td>$1,726.00&nbsp;&nbsp;&nbsp;</td><td><div>432</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x09579452bc3872727A5D105f342645792BB8a82b">
+                <img src='/token/images/aardvarkcoinbase_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Aardvark</div>
+                    <span class="text-muted">(VARK)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00017648">
+                    $0.0002
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.70%</span>
+            </td><td>
+                $744.00
+            </td><td>--</td><td>$213,910.00&nbsp;&nbsp;&nbsp;</td><td><div>1,193</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xb3621cd34803cf7065dcb0d5bfb0f56c1834a063">
+                <img src='/token/images/defiagentsai_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">DeFi Agents AI Token</div>
+                    <span class="text-muted">(DEFAI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00017473">
+                    $0.0002
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>17.46%</span>
+            </td><td>
+                $755.00
+            </td><td>--</td><td>$174,730.00&nbsp;&nbsp;&nbsp;</td><td><div>9,062</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x431c248257c1d3897fea3b99eb8e2e4de008cbdf">
+                <img src='/token/images/prfarb_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Parifi</div>
+                    <span class="text-muted">(PRF)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.0001464">
+                    $0.0001
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$25,518.00&nbsp;&nbsp;&nbsp;</td><td><div>57</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xa1ca6299ba48366af1845a9a8ae59b87ff0d5c01">
+                <img src='/token/images/snowyold_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Snowy Owl</div>
+                    <span class="text-muted">(SWOL)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00010177">
+                    $0.0001
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>883.22%</span>
+            </td><td>
+                $3,555,832.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>3,658,100</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xc7837be3d71e00fcbe76d77602bcf353df859664">
+                <img src='/token/images/belegends_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Legend</div>
+                    <span class="text-muted">(LEGEND)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00008497">
+                    $0.0001
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-8.21%</span>
+            </td><td>
+                $195.00
+            </td><td>--</td><td>$18,505.00&nbsp;&nbsp;&nbsp;</td><td><div>1,481</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0c76e9c9e391055e75eb2413d718a4bc7a037972">
+                <img src='/token/images/devourfuelx_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Fuel</div>
+                    <span class="text-muted">(FUELX)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00007897">
+                    $0.0001
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-danger text-nowrap"><i class="fas fa-caret-down me-1"></i>-1.13%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$25,138.00&nbsp;&nbsp;&nbsp;</td><td><div>354</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x8217aef424b8ed7279d90ec29315a6295dc73d16">
+                <img src='/token/images/airtok_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Airtok AI</div>
+                    <span class="text-muted">(AIRTOK)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00005037">
+                    $0.0001
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>0.44%</span>
+            </td><td>
+                $8.00
+            </td><td>--</td><td>$100,740.00&nbsp;&nbsp;&nbsp;</td><td><div>439</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xe388A9a5bFD958106ADeB79df10084a8b1D9a5aB">
+                <img src='/token/images/lordy_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Lordy</div>
+                    <span class="text-muted">(LORDY)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00004833">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>8.40%</span>
+            </td><td>
+                $378.00
+            </td><td>--</td><td>$48,330.00&nbsp;&nbsp;&nbsp;</td><td><div>348,535</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xeA6f7e7e0F46A9E0F4e2048Eb129D879f609d632">
+                <img src='/token/images/basedpercy_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Percy</div>
+                    <span class="text-muted">(PERCY)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.0000226">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $1.00
+            </td><td>--</td><td>$22,600.00&nbsp;&nbsp;&nbsp;</td><td><div>39,857</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x301cbf069cbe1157209b776afd5c9cdaaaacdfe1">
+                <img src='/token/images/georgeonbase_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">GEORGE</div>
+                    <span class="text-muted">(GEORGE)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00001747">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>5.51%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>25,234</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x00a510c6f786f13231d943fd22d4c45e8c51accf">
+                <img src='/token/images/ip_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">TRUMP IP</div>
+                    <span class="text-muted">(IP)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00001146">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>131.61%</span>
+            </td><td>
+                $864,584.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>266</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xd429a52a56c712ab8ba11eacd8bf178e7c3b4d80">
+                <img src='/token/images/poeonbase_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">POΞ</div>
+                    <span class="text-muted">(POΞ)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000878">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$8,783.00&nbsp;&nbsp;&nbsp;</td><td><div>126,685</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x5cf8338e74374eab368784900d6aeca460afa9aa">
+                <img src='/token/images/gotchi_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Aaavegotchi Autonomous Agent by Virtuals</div>
+                    <span class="text-muted">(GOTCHI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000693">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $2.00
+            </td><td>--</td><td>$6,903.00&nbsp;&nbsp;&nbsp;</td><td><div>29,506</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x313f2cdDcdc74747C18D2F529ec9c087860198Ed">
+                <img src='/token/images/humptydumpty_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Agen Humpty Dumpty</div>
+                    <span class="text-muted">(AHD)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000608">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$422,074.00&nbsp;&nbsp;&nbsp;</td><td><div>542,000</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xe0f96f025ebb27950718ebd787b69c325cf045c0">
+                <img src='/token/images/banditonbase_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Bandit on Base</div>
+                    <span class="text-muted">(BANDIT)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000522">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.43%</span>
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$52,184.00&nbsp;&nbsp;&nbsp;</td><td><div>3,707</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x0265C6971037564f2A1382F63Fe9d707342891F2">
+                <img src='/token/images/triumphofmaga_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Triumph of MAGA</div>
+                    <span class="text-muted">(MAGA)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000106">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$50,036.00&nbsp;&nbsp;&nbsp;</td><td><div>5,802</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xc5a861787f3e173f2b004d5cfa6a717f5dc5484d">
+                <img src='/token/images/snowleopard_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Snow Leopard</div>
+                    <span class="text-muted">(SNL)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.0000002">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>3893.23%</span>
+            </td><td>
+                $155,371.00
+            </td><td>--</td><td>$956,640.00&nbsp;&nbsp;&nbsp;</td><td><div>1,837,643</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x2953ca1174b41b28439ef1155235fa699d7b75ba">
+                <img src='/token/images/lwfi_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Liberty world financial</div>
+                    <span class="text-muted">(LWFI)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000007">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$6,760.00&nbsp;&nbsp;&nbsp;</td><td><div>1,123,670</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x089d91926e43cd7318198922d548189470ca25f2">
+                <img src='/token/images/hmstr_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Baby Hamster Kombat</div>
+                    <span class="text-muted">(HMSTR)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000002">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$70,200.00&nbsp;&nbsp;&nbsp;</td><td><div>10,807</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xb7750e425e86e9ab57bc570a1c89737a56cf4322">
+                <img src='/token/images/coinbidex_64.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Coinbidex</div>
+                    <span class="text-muted">(CBE)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00000002">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.86%</span>
+            </td><td>
+                $1.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>130</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xA23dD9379F2E12D9ce76eC738b9f5e520d1D861c">
+                <img src='/token/images/usdebt_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">USDEBT</div>
+                    <span class="text-muted">(USDEBT)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>1.44%</span>
+            </td><td>
+                $433.00
+            </td><td>--</td><td>$12,272.00&nbsp;&nbsp;&nbsp;</td><td><div>957</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x72499bdDb67F4CA150E1f522Ca82c87bc9fB18c8">
+                <img src='/token/images/bonkonbase_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Bonk</div>
+                    <span class="text-muted">(BONK)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                <span class="text-success text-nowrap"><i class="fas fa-caret-up me-1"></i>5.61%</span>
+            </td><td>
+                $2,715.00
+            </td><td>--</td><td>$260,000.00&nbsp;&nbsp;&nbsp;</td><td><div>101,613</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xca57b8d3edd0bedc6c1087bd35d782c3518b2a52">
+                <img src='/token/images/lotterytoken_32.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Lottery Token</div>
+                    <span class="text-muted">(LOT)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>5,136</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca">
+                <img src='/assets/base/images/svg/empty-token.svg?v=25.7.1.2' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Moonwell Flagship USDC</div>
+                    <span class="text-muted">(mwUSDC)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>13,836</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0xAcB5b33ce55ba7729E38b2b59677E71c0112f0D9">
+                <img src='/token/images/opensocial_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">OpenSocial</div>
+                    <span class="text-muted">(OSP)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>21,763</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x04d1963c76eb1bec59d0eeb249ed86f736b82993">
+                <img src='/token/images/softdao_base_32.png' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">SoftDAO</div>
+                    <span class="text-muted">(SOFT)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>1,414</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr><tr><td>&nbsp;&nbsp;-</td><td><a class="d-flex align-items-center gap-1 link-dark" href="/token/0x78ec15c5fd8efc5e924e9eebb9e549e29c785867">
+                <img src='/token/images/torus.svg' width='24' height='24' class='js-token-avatar rounded-circle'>
+                <div class="d-flex gap-1">
+                    <div class="hash-tag text-truncate fw-medium">Torus</div>
+                    <span class="text-muted">(TORUS)</span>
+                </div>
+            </a></td><td><div class="d-inline" data-bs-toggle="tooltip" data-bs-title="$0.00">
+                    $0.00
+                </div>
+                <div class="text-muted small">
+                    0.000000 ETH
+                </div></td><td>
+                --
+            </td><td>
+                $0.00
+            </td><td>--</td><td>$0.00&nbsp;&nbsp;&nbsp;</td><td><div>23,438</div><div class="small d-inline" data-bs-toggle="tooltip" data-bs-title="No change in Token holders from previous day">
+                        0.000%
+                    </div></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                
+                
+                
+            </div>
+            
+
+            <!-- Table Footer -->
+            <form method="post" action="./tokens?ps=100&amp;p=5" id="frmTkn">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/PfRNGalFR5ImNrFcpFz9ih/lwRfejaRbcDSkpYzwzxSVHJzfknLQjuTmmYeiR5TTVIuzzYMVgYq+rgs2TMw/QCLfEtWordHUvDr36Hi4DA=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmTkn'];
+if (!theForm) {
+    theForm = document.frmTkn;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3C86B011" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="g4pT/GQ3vF+DGbAJvPL3oFd15cRsP9hIXF1Lh7nI0KstNwXyxMnkDH+1Sp6IXK4VTPEIAwGEAwSrKi/DWuU+OjimKwdAB/4XLCUtellAvaCbe/nF58Y/t4PdH71kwC5RpRgEkmcgGQhfnShQ2F8G6arEGhlcWzzi8TQfZ+Ap3CrrilJQVs+Oli31n+XmcyQ+IaD1m7s5iKW8Uk1DUrsPPg==" />
+</div>
+                <div id="ContentPlaceHolder1_divPagination" class="card-footer d-flex flex-wrap justify-content-between align-items-center gap-3">
+                    <!-- Entries -->
+                    <div class="d-flex align-items-center gap-2 text-nowrap text-muted">
+                        <span class="text-nowrap text-muted">Show rows:</span>
+                        <select name="ctl00$ContentPlaceHolder1$ddlRecordsPerPage" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlRecordsPerPage\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ddlRecordsPerPage" class="form-select form-select-sm w-auto">
+	<option value="10">10</option>
+	<option value="25">25</option>
+	<option value="50">50</option>
+	<option selected="selected" value="100">100</option>
+
+</select>
+                    </div>
+                    <!-- End Entries -->
+
+                    <!-- Pagination -->
+                    <nav aria-label="Table navigation">
+                        <ul class="pagination pagination-sm mb-0"><li class="page-item"><a class="page-link" href="tokens?ps=100&amp;p=1"><span aria-hidden="True">First</span><span class="sr-only">First</span></a></li><li class="page-item" data-bs-toggle='tooltip' title="Go to Previous"><a class="page-link px-3" href="tokens?ps=100&amp;p=4" aria-label="Previous"><span aria-hidden="True"><i class="fa fa-chevron-left small"></i></span><span class="sr-only">Previous</span></a></li><li class="page-item disabled"><span class="page-link text-nowrap">Page 5 of 5</span></li><li class="page-item disabled"><span class="page-link px-3" ><i class="fa fa-chevron-right small"></i></span><span class="sr-only">Previous</span></li><li class="page-item disabled"><span class="page-link" >Last</span></li>
+                    </nav>
+                    <!-- End Pagination -->
+                </div>
+            </form>
+            <!-- End Table Footer -->
+
+            
+            
+            
+        </div>
+        <!-- End Card Tabs -->
+
+        
+        
+        
+
+        
+        
+        
+
+        <!-- Page Description -->
+        <div class="mt-4">
+            <p class="d-flex align-items-baseline fs-sm text-muted gap-1 mb-3">
+                <i class="far fa-lightbulb-on"></i>
+                <span>
+                    This page tracks key metrics of <a href='https://info.basescan.org/what-is-erc20-token/' target='_blank' rel='nofollow noreferrer'>ERC-20</a> tokens on Base. Kindly take note that only updated tokens are listed. Learn more about our Blue Checkmark feature in our <a target='_blank' href='https://info.basescan.org/token-reputation/'>Knowledge Base</a>.
+                </span>
+            </p>
+            
+        </div>
+        <!-- End Page Description -->
+    </section>
+    
+
+    </main>
+
+    <div id="push" style="display: none;"></div>
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" id="emailSubscribeModalBox" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close close-md" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="text-center py-5-alt px-4">
+                        <div id="emailSubscribeModalBoxText"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    
+    
+    <div class="modal fade" id="copyAddressConfirmModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="mb-5">
+                        <div class="text-center">
+                            <div class="mb-2">
+                                <i class="fas fa-exclamation-triangle text-warning fs-2"></i>
+                            </div>
+
+                            <h6 class="modal-title fs-5 mb-0">Before You Copy</h6>
+                        </div>
+
+                        <div class="mb-3 text-center">
+                            <p class="text-muted small" id="addressToCopy"></p>
+                        </div>
+
+                        <p id="copyAddressConfirmMessage"></p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="popupDontShowAgain">
+                            <label class="form-check-label" for="popupDontShowAgain">Don't show this for 30 days</label>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="btnConfirmCopyAddress" data-clipboard-target="#addressToCopy" class="btn btn-lg btn-secondary" data-bs-dismiss="modal">
+                            Understand, Copy Address
+                       
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+        <!-- Modal: Add Transaction Private Note -->
+ <div class="modal fade" id="tnxPrivateNoteModal" tabindex="-1" role="dialog">
+     <div class="modal-dialog">
+         <div class="modal-content">
+         <div class="modal-header">
+             <h1 class="modal-title" id="tnxPrivateNoteModalLabel">Transaction Private Note</h1>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+
+         <div class="modal-body">
+             <form>
+             <div class="mb-4">
+                 <label class="form-label" for="saveTxnNoteHash">Transaction Hash</label>
+                 <input type="text" class="form-control py-2" id="saveTxnNoteHash" disabled>
+             </div>
+
+             <div class="mb-4">
+                 <label class="form-label" for="editTxnNote">Private Note Description</label>
+
+                 <textarea class="form-control py-2" id="editTxnNote" rows="5" name="text" placeholder="Short description.." maxlength="100"></textarea>
+                 <div class="small text-muted mt-1 ms-1"><span id="txtPrivateNoteTip"></span></div>
+
+                 <div class="form-text mt-2">
+                 <p>Please <strong class="fw-medium">DO NOT</strong> store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.
+                 </div>
+             </div>
+
+             <div class="d-flex flex-wrap gap-4">
+                 <a target="_blank" href="/mynotes_tx" rel="noopener noreferrer">
+                 View All Transactions Private Notes <i class="far fa-arrow-up-right text-secondary ms-1"></i>
+                 </a>
+             </div>
+
+             </form>
+         </div>
+
+         <div class="modal-footer">
+             <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Cancel</button>
+             <button type="button" class="btn btn-primary" onclick="quickSubmitTxPrivateNote();">Save changes</button>
+             <span id="modalElement" name="modalElement" style="display: none;"></span>
+         </div>
+         </div>
+     </div>
+ </div>
+ <!-- End Modal: Add Transaction Private Note -->
+
+<!-- Modal: Quick Add Private Name Tags -->
+ <div class="modal fade" id="privateNameTagModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title">
+                     My Address - Private Name Tag or Note
+                 </h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+                 <div class="mb-4">
+                     <p class="mb-1 ms-1">My Name Tag:</p>
+                     <input type="hidden" name="txtAddress" id="txtAddress" />
+                     <input type="text" spellcheck="false" class="form-control py-2 mb-2" id="txtPrivateNameTagMain" maxlength="35" />
+                     <div class="small text-muted mt-0 ms-1"><span id="privatetagtip">Private Name Tags (up to 35 characters) can be used for easy identification of addresses</span></div>
+                 </div>
+                 <div class="mb-4">
+                     <p class="mt-4 mb-1 ms-1">Private Note:</p>
+                     <textarea rows="8" cols="50" spellcheck="false" class="form-control py-2" id="txtPrivateNoteAreaMain" maxlength="500"></textarea>                                    
+                     <div class="small text-muted mt-1 ms-1"><span id="privatenotetipMain">A private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.</span></div>
+                 </div>
+                 <a target="_blank" href="/mynotes_address">
+                     View all Private Name Tags <i class="far fa-arrow-up-right text-secondary ms-1"></i>
+                 </a>
+             </div>
+             <div class="modal-footer bg-light">
+                 <button data-bs-dismiss="modal" class="btn btn-ghost-white" type="button" id="closenote" data-bs-toggle="tooltip" data-bs-trigger="hover" title="Close form without saving changes made">Close</button>
+                 <button class="btn btn-primary" type="button" id="savenote" data-bs-toggle="tooltip" data-bs-trigger="hover" title="Save all changes made" onclick="quickSubmitPrivateNameTag();">Save Changes</button>
+                 <span id="modalElementPrivateNameTag" name="modalElementPrivateNameTag" style="display: none;"></span>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- End Modal: Quick Add Private Name Tags -->
+
+    <footer id="masterFooter" class="bg-light mt-auto d-print-none">
+        
+        <div class="container-xxl">
+            <div class="d-flex justify-content-between align-items-baseline py-6">
+                <!-- Social Links -->
+                <div class="d-flex gap-2">
+                    
+                </div>
+                <!-- End Social Links -->
+
+                <a class="link-dark" href="#">
+                    <i class="far fa-arrow-up-to-line me-1"></i>Back to Top
+                </a>
+            </div>
+
+            <hr class="my-0">
+
+            <!-- Footer Content -->
+            <div class="row justify-content-md-between py-8 py-lg-10">
+                <div class="col-lg-4 pe-xl-16 mb-4 mb-lg-0">
+                    
+                    <a class="d-inline-flex align-items-center link-dark group mb-3" target="_blank" href="https://www.base.org">
+                        <img class="me-2" width="28" data-img-theme="light" src="/assets/base/images/svg/logos/chain-light.svg?v=25.7.1.2" alt="Base Logo">
+                        <img class="me-2" width="28" data-img-theme="dim" src="/assets/base/images/svg/logos/chain-dim.svg?v=25.7.1.2" alt="Base Logo">
+                        <img class="me-2" width="28" data-img-theme="dark" src="/assets/base/images/svg/logos/chain-dark.svg?v=25.7.1.2" alt="Base Logo">
+                        <span class="fs-5">Powered By Base</span>
+                        <i class="far fa-arrow-up-right-from-square text-muted small group-hover ms-2"></i>
+                    </a>
+                    
+
+                    <p class="fs-sm">Basescan is a Block Explorer and Analytics Platform for Base</p>
+                    <button type="button" class="btn btn-sm btn-secondary" onclick="addNetwork('web3');">
+                        <img class="me-1" width="18" src="/images/svg/brands/metamask.svg" alt="Metamask"> Add Base Mainnet
+                    </button>
+                    
+                </div>
+
+                <div class="col-6 col-md-4 col-lg mb-10 mb-md-0">
+                    <h4 class="h6 mb-3">Company</h4>
+                    <!-- List Group -->
+                    <ul class="list-unstyled list-sm-space fs-sm mb-0">
+                        
+                        <li><a class="link-dark" href="/brandassets">Brand Assets</a></li>
+                        <li><a class="link-dark" href="/contactus">Contact Us</a></li>
+                        
+                        <li><a class="link-dark" href="/terms">Terms</a> & <a class="link-dark" href="/privacyPolicy">Privacy</a></li>
+                        <li><a class="link-dark" href="https://etherscan.io/bugbounty" target='_blank'>Bug Bounty</a> <i class='far fa-arrow-up-right-from-square text-muted ms-1'></i></li>
+                    </ul>
+                    <!-- End List Group -->
+                </div>
+
+                <div class="col-6 col-md-4 col-lg mb-10 mb-md-0">
+                    <h4 class="h6 mb-3">Community</h4>
+                    <!-- List Group -->
+                    <ul class="list-unstyled list-sm-space fs-sm mb-0">
+                        
+                        <li><a class="link-dark" href="https://docs.etherscan.io/etherscan-v2" target="_blank">API Documentation</a></li>
+                         
+                        <li><a class="link-dark" href="https://info.basescan.org/">Knowledge Base</a></li>
+                        
+                        <li><a class="link-dark" href="https://basescan.statuspage.io/" rel="nofollow noopener" target="_blank">Network Status</a></li>
+                        
+                    </ul>
+                    <!-- End List Group -->
+                </div>
+
+                <div class="col-12 col-md-4 col-lg">
+                    <h4 class="h6 mb-3">Products &amp; Services</h4>
+                    <!-- List Group -->
+                    <ul class="list-unstyled list-sm-space fs-sm mb-0">
+                        
+                        <li><a class="link-dark" href="https://etherscan.io/contactusadvertise?type=8453" target="_blank">Advertise <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+                        
+                        <li><a class="link-dark" href="https://etherscan.io/eaas" target="_blank">Explorer as a Service (EaaS) <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+                        <li>
+                            <a href="https://etherscan.io/apis?id=8453" id="LI80" class="link-dark" target="_blank">API Plans <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+                        
+                        <li><a class="link-dark" href="/priority-support">Priority Support</a></li>
+                        
+                        <li><a class="link-dark" href="https://blockscan.com" target="_blank">Blockscan <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+                        
+                    </ul>
+                    <!-- End List Group -->
+                </div>
+            </div>
+            <!-- End Footer Content -->
+
+            <!-- Copyright Content -->
+            <div class="border-top py-4">
+                <div class="row justify-content-between align-items-center fs-sm">
+                    <div class="col-md mb-2 mb-md-0">
+                        <p class="mb-0">
+                            BaseScan © 2025  (BASE-B1)
+                            <span class="mx-1">|</span>
+                            ⛏ Built by Team <a href="https://etherscan.io" target="_blank"><strong>Etherscan</strong><i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a>
+                        </p>
+                    </div>
+
+                    <div class="col-md text-md-end">
+                        <p class="mb-0">
+                            Donations: <a class='me-1' href='/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f'><span id='spanDonateAddress' runat='server'>0x71c765...d8976f</span></a> <i class='fas fa-heart text-danger'></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Copyright Content -->
+        </div>
+
+        </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- Cookie Alert -->
+    <div id="masterDivCookie">
+        <div class="fixed-bottom text-center" id="divcookie" style="display: none;">
+            <div class="alert alert-light fade show border shadow-sm d-inline-flex flex-wrap flex-sm-nowrap align-items-sm-center text-start gap-3 mx-3" role="alert">
+                <p class="text-dark mb-0">
+                    <i class="far fa-cookie-bite text-muted"></i> This website <a href="/terms#cookiestatement" target="_blank">uses cookies to improve your experience</a>. By continuing to use this website, you agree to its <a href="/terms" target="_blank">Terms</a> and <a href="/privacyPolicy" target="_blank">Privacy Policy</a>.
+                </p>
+                <button id ='btnCookie' type="button" class="btn btn-primary text-nowrap px-4" data-bs-dismiss="alert" aria-label="Close">Got it!</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Cookie Alert -->
+
+    <script src="/assets/vendor/jquery-ui/jquery-ui.min.js?v=25.7.1.2"></script>
+    <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js?v=25.7.1.2"></script>
+    <script src="/assets/vendor/bootstrap/bootstrap.bundle.min.js?v=25.7.1.2"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js?v=25.7.1.2"></script>
+    <script src="/assets/vendor/clipboard/dist/clipboard.min.js?v=25.7.1.2"></script>
+
+    <!-- JS Front -->
+    <script src="/assets/js/hs.core.js?v=25.7.1.2"></script>
+    <script src="/assets/js/components/hs.cubeportfolio.js?v=25.7.1.2"></script>
+    <script src="/assets/js/custom/combine-js-bottom2.js?v=25.7.1.2"></script>
+    <script src="/assets/vendor/autocomplete/dist/js/autocomplete.min.js?v=25.7.1.2"></script>
+    <script src="/assets/js/custom/blockchain-search.js?v=25.7.1.2"></script>
+    <!-- JS -->
+    <script src="/assets/js/app.min.js?v=25.7.1.2"></script>
+    
+    <!-- JS Init. -->
+    <script>
+        var strSearchBoxSiteToken = 'ERC';
+
+        (function () {
+            // INITIALIZATION OF CLIPBOARD
+            HSCore.components.HSClipboard.init('.js-clipboard');
+
+            let searchAttributes = {
+                'name': 'title',
+                'img': 'img',
+                'rate': 'rate',
+                'address': 'address',
+                'link': 'link',
+                'group': 'group',
+                'groupid': 'groupid',
+                'website': 'website',
+                'is_verified': 'is_checked',
+                'ps': 'ps',
+                'desc': 'desc',
+                'reputation' : 'reputation'
+            }
+
+            blockChainSearchInit({
+                id: 'search-panel',
+                attributes: searchAttributes
+            });
+        })();
+
+
+    </script>
+    <!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function () {
+            myfn_subscribeNewsletter.startFn("#btnSubscribeNewsletter", "#signupSrEmail")
+        });
+
+        $(document).on('ready', function () {
+
+            // Get offset timezone of enduser and set to cookie
+            const date = new Date();
+            const offsetMinutes = date.getTimezoneOffset();
+            const offsetHours = Math.abs(offsetMinutes / 60);
+            const sign = offsetMinutes > 0 ? '-' : '+';
+            offsetHoursFinal = sign + offsetHours;
+            writeCookie(strSiteName + "_offset_datetime", offsetHoursFinal, 365);
+
+            // initialization of cubeportfolio
+            $.HSCore.components.HSCubeportfolio.init('.cbp');
+
+            const clipboard = new ClipboardJS('.js-clipboard');
+            clipboard.on('success', function (e) {
+                let toolTip = bootstrap.Tooltip.getInstance(e.trigger);
+                var oriTooltip = toolTip._config.originalTitle
+
+                toolTip._config.title = 'Copied!';
+                toolTip.setContent();
+                toolTip.update();
+
+                setTimeout(function () {
+                    toolTip._config.title = oriTooltip;
+                }, 1000);
+            });
+        });
+
+    </script>
+    
+    <script type="text/javascript">
+        var strSiteName = 'basescan';
+        var sid = '9dde58cc972718f976691784744d3b70';
+        var strGlobal = getCookie(strSiteName + "_switch_age_datetime");
+        var strGlobalFee = sessionStorage.getItem("ShowFee");
+        var cookieconsent = getCookie(strSiteName + "_cookieconsent");
+        var ignoreCopyConfirmation = getCopyAddressConfirmationSetting();
+        var colorHyperLink = '#7342DC';
+
+        
+        if (cookieconsent !== "True" && document.getElementById("divcookie")) {
+            document.getElementById("divcookie").style.display = "block";
+        };
+        
+
+        var ace_editor_theme = 'ace/theme/dawn';
+        var ace_editor_theme_dim = 'ace/theme/tomorrow_night_blue';
+        var ace_editor_theme_dark = 'ace/theme/tomorrow_night';
+
+        var chart_linear_gradient = "{ x1: 0, y1: 0, x2: 0, y2: 1 }";
+        var chart_stops = "[ [0, Highcharts.getOptions().colors[0]], [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')] ]";
+        var chart_tooltip_color = "";
+        var chart_point_color = "";
+        var chart_series_color = "";
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        $("#btnCookie").click(function () {
+            $("#divcookie").fadeOut("slow", function () {
+                var d = new Date();
+                d.setTime(d.getTime() + (1095 * 24 * 60 * 60 * 1000));
+                var expires = "expires=" + d.toUTCString();
+                document.cookie = strSiteName + "_cookieconsent=True" + ";" + expires + ";path=/";;
+            });
+        });
+
+        function handleSearchText(data) {
+            searchAddress = false;
+            if ($("search-panel").val() == "") {
+                $("#hdnSearchText").val("");
+                $("#hdnSearchLabel").val("");
+            }
+        }
+
+        function writeCookie(key, value, days) {
+            var date = new Date();
+            days = days || 365;
+            date.setTime(+ date + (days * 86400000));
+            window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
+            return value;
+        }
+
+        function setThemeMode(mode) {
+            writeCookie('displaymode', mode);
+        }
+
+        // Note: this function will be called from where need to init the "Copy Address Confirm Modal".
+        function openCopyAddressConfirmModal(address, message) {
+            $("#addressToCopy").text(address);
+            $("#copyAddressConfirmMessage").text(message);
+
+            const clipboard = new ClipboardJS("#btnConfirmCopyAddress");
+            document.getElementById('copyAddressConfirmModal').addEventListener('hidden.bs.modal', event => {
+                clipboard.destroy();
+            });
+
+            const copyAddressConfirmModal = new bootstrap.Modal('#copyAddressConfirmModal', {
+                backdrop: true
+            })
+            copyAddressConfirmModal.show();
+        }
+
+        function saveCopyAddressConfirmationSetting(ignoreCopyConfirmation) {
+            const copyAddressConfirmationSetting = {
+                ignoreCopyConfirmation: ignoreCopyConfirmation,
+                expiresOn: Date.now() + 1000 * 60 * 60 * 24 * 30
+            };
+            localStorage.setItem(strSiteName + "_copyAddressConfirmationSetting", JSON.stringify(copyAddressConfirmationSetting));
+        }
+
+        function getCopyAddressConfirmationSetting() {
+            try {
+                const settings = localStorage.getItem(strSiteName + "_copyAddressConfirmationSetting");
+                if (settings) {
+                    const copyAddressConfirmationSetting = JSON.parse(settings);
+
+                    return copyAddressConfirmationSetting.ignoreCopyConfirmation && copyAddressConfirmationSetting.expiresOn > Date.now();
+                }
+                else {
+                    return false;
+                }
+            } catch (e) {
+                return false;
+            }
+        }
+    </script>
+
+    
+
+    <script src="/assets/js/custom/web3.min.js?v=0.5.2.3"></script>
+    <script src="/assets/js/custom/web3-utils.min.js"></script>
+    
+    <script src="/assets/js/custom/web3-providers-http.min.js"></script>    
+
+    <script src="/assets/vendor/web3modal-1.9.8.min.js?v=25.7.1.2"></script>
+    <script src="/assets/vendor/walletlink_bundle.js?v=25.7.1.2"></script>
+    <script src="/assets/js/custom/coinbase-wallet-sdk.js?v=25.7.1.2"></script>
+    <script src="/assets/js/custom/wallet-handling-connect.js?v=25.7.1.2"></script>
+
+    <script type="text/javascript">
+        var eth;
+        var objProvider
+        var isTestnet = 'false';
+        var SiteNetID = '8453';
+        var SiteNetChainID = '0x2105';
+        var SiteNetName = 'Base';
+        var allowErc1155 = 'True';
+
+        ListenProviderList();
+        async function addNetwork(type) {
+
+            if (type === 'web3') {
+                if (typeof ethereum !== 'undefined') {
+                    objProvider = await initweb3walletProvider("MetaMask");
+                    eth = new Web3(objProvider.provider);
+                } else if (typeof web3 !== 'undefined') {
+                    eth = new Web3(web3.givenProvider);
+                } else {
+                    eth = new Web3(ethereum);
+                }
+            }
+
+            if (typeof eth !== 'undefined') {
+                var network = 0;
+                network = await eth.eth.getChainId(); //await eth.eth.net.getId();
+                netID = network.toString();
+                var params;
+                if (netID == SiteNetID) {
+                    alert("Base Network has already been added to Metamask.");
+                    return;
+                } else {
+                    params = [{
+                        chainId: SiteNetChainID,
+                        chainName: 'Base',
+                        nativeCurrency: {
+                            name: 'ETH',
+                            symbol: 'ETH',
+                            decimals: 18
+                        },
+                        rpcUrls: ['https://mainnet.base.org/'],
+                        blockExplorerUrls: ['https://basescan.org']
+                    }]
+                }
+
+                GeneralRequestWithProvider('wallet_addEthereumChain', params, eth.currentProvider)
+                    .then(() => console.log('Success'))
+                    .catch((error) => console.log("Error", error.message));
+            } else {
+                alert('Unable to locate a compatible web3 browser!');
+            }
+        }
+    </script>
+
+    
+    <script type="text/javascript" src="/assets/vendor/datatables/datatables.min.js?v=25.7.1.2"></script>
+    <script type="text/javascript" src="/assets/js/custom/datatables/plugins/custompagination.js?v=25.7.1.2"></script>
+
+    <script>
+        const resetSortDictionary = {};
+        const resetPageDictionary = {};
+        const visitedTabDictionary = {};
+        const queryStringDictionary = {};
+        const currentLengthDictionary = {};
+        let currentTab = 0;
+        const refreshToDefaultDictionary = {};
+        const defaultLength = 50;
+        const defaultSort = {};
+        const totalPage = 0;
+        const isLoggedIn = false;
+
+        const sortAscIcon = `<i class="far fa-arrow-up-wide-short small text-secondary me-1"></i>`;
+        const sortDescIcon = `<i class="far fa-arrow-down-wide-short small text-secondary me-1"></i>`;
+
+        // Document Ready
+        $(document).ready(function () {
+            if ($("#ContentPlaceHolder1_divTokenByLabels")[0]) {
+                renderDataTable();
+                var currentTableId = `table-subcatid-${currentTab}`;
+                $(`#${currentTableId}`).DataTable().ajax.reload();
+            }
+        });
+
+        function renderDataTable() {
+            visitedTabDictionary["tab-" + currentTab] = true;
+
+            let hideTableFooterCss = "";
+            if (isLoggedIn == false) {
+                hideTableFooterCss = "d-none";
+            }
+            const config = {
+                dom:
+                    `<"d-flex flex-wrap align-items-center justify-content-between gap-3 p-4 text-dark"ip>
+                    <"custom-datatables-processing"r>
+                    t
+                    <"${hideTableFooterCss} card-footer d-flex flex-wrap justify-content-between align-items-center gap-3"<"d-flex align-items-center gap-2"l>p>`,
+                language: {
+                    emptyTable: "No Token Contracts found for the address.",
+                    info: `A total of <span class="fw-medium">_MAX_</span> Token Contracts found`,
+                    infoEmpty: `A total of <span class="fw-medium">0</span> Token Contracts found`,
+                    lengthMenu: "Show rows: _MENU_",
+                    processing: `<!-- Spinner --><div id="overlay" class="text-center py-10 "><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div><div class="small text-muted mt-1">Loading</div></div><!-- End Spinner -->`
+                },
+                oLanguage: {
+                    oPaginate: {
+                        next: `<i class="fas fa-chevron-right small"></i>`,
+                        previous: `<i class="fas fa-chevron-left small"></i>`
+                    }
+                },
+                columns: [
+                    { data: "number" },
+                    { data: "contractAddress" },
+                    { data: "tokenName" },
+                    { data: "marketCap" },
+                    { data: "holders" },
+                    { data: "website" }
+                ],
+                columnDefs: [
+                    { orderable: true, targets: 2, orderSequence: ["asc", "desc", "reset"] },
+                    { orderable: true, targets: 3, orderSequence: ["desc", "asc"] },
+                    { orderable: true, targets: 4, orderSequence: ["desc", "asc", "reset"] },
+                    { orderable: false, targets: '_all' }
+                ],
+                drawCallback: function (settings) {
+                    const tableId = this.attr("id");
+                    const tableApi = this.api();
+                    const json = tableApi.ajax.json();
+                    if (!json) {
+                        var urlParams = new URLSearchParams(window.location.search);
+                        var existLength = urlParams.get('size');
+                        if (existLength) {
+                            tableApi.page.len(existLength);
+                            currentLengthDictionary[tableId] = parseInt(existLength)
+
+                            var existStart = urlParams.get('start');
+                            if (!existStart) {
+                                existStart = 0
+                            }
+                            currentPage = Math.floor(existStart / existLength);
+                            tableApi.page(currentPage);
+                        }
+
+                        var existCol = urlParams.get('col');
+                        var existOrder = urlParams.get('order');
+                        if (existCol && existOrder) {
+                            tableApi.order([parseInt(existCol), existOrder]);
+                        }
+
+                        return;
+                    } else {
+                        if (refreshToDefaultDictionary[tableId]) {
+                            refreshToDefaultDictionary[tableId] = false;
+                            tableApi.page.len(defaultLength);
+                            tableApi.order([defaultSort["column"], defaultSort["dir"]]);
+                        }
+
+                        if (resetSortDictionary[tableId]) {
+                            tableApi.order([defaultSort["column"], defaultSort["dir"]]);
+                        }
+
+                        if (resetPageDictionary[tableId]) {
+                            tableApi.page(0);
+                            resetPageDictionary[tableId] = false;
+                        }
+                    }
+
+                    if (isLoggedIn == true) {
+                        const currentOrder = tableApi.order()[0];
+                        const isDefaultSorting = currentOrder[0] == defaultSort["column"] && currentOrder[1] == defaultSort["dir"];
+                        updateSortingHeaders(tableId, isDefaultSorting);
+                    }
+
+                    const subCatId = currentTab
+                    const pageInfo = tableApi.page.info();
+                    if (pageInfo.length) {
+                        queryStringDictionary["length_" + subCatId] = pageInfo.length;
+                    }
+                    if (pageInfo.start !== undefined) {
+                        queryStringDictionary["start_" + subCatId] = pageInfo.start;
+                    }
+
+                    const orderInfo = tableApi.order();
+                    queryStringDictionary["col_" + subCatId] = orderInfo[0][0];
+                    queryStringDictionary["order_" + subCatId] = orderInfo[0][1];
+
+                    updateUrl(subCatId);
+                    updateTableComponents();
+                    $(`[data-bs-toggle="tooltip"]`).tooltip();
+                    HSCore.components.HSClipboard.init('.js-clipboard');
+                },
+                ajax: {
+                    type: "POST",
+                    contentType: "application/json",
+                    url: "/tokens.aspx/GetTokensBySubLabel",
+                    dataType: 'json',
+                    dataFilter: function (res) {
+                        var parsed = JSON.parse(res);
+                        var morp = parsed.d;
+                        return JSON.stringify(morp);
+                    },
+                    data: function (d, settings) {
+                        var labelModel = generateLabelModel();
+                        var tableId = settings.nTable.getAttribute("id");
+
+                        if (refreshToDefaultDictionary[tableId]) {
+                            d.length = defaultLength;
+                            d.order[0] = defaultSort;
+                        }
+
+                        if (currentLengthDictionary[tableId] != d.length) {
+                            if (currentLengthDictionary[tableId] != undefined) {
+                                d.start = 0;
+                                resetPageDictionary[tableId] = true;
+                            }
+                            currentLengthDictionary[tableId] = d.length;
+                        }
+
+                        if ((d.order[0] && d.order[0].dir === "reset")) {
+                            d.order[0] = defaultSort;
+                            resetSortDictionary[tableId] = true;
+                        }
+                        else {
+                            resetSortDictionary[tableId] = false;
+                        }
+
+                        return JSON.stringify({ dataTableModel: d, labelModel: labelModel });
+                    }
+                },
+                autoWidth: false,
+                serverSide: true,
+                processing: true,
+                searching: false,
+                pagingType: 'custompagination',
+                paging: false,
+                ordering: false,
+                order: [],
+                pageLength: 50
+            };
+
+            
+        }
+
+        function updateSortingHeaders(tableId, isDefaultSorting) {
+            var hasAscSort = false;
+            var hasDescSort = false;
+            $(`#${tableId} th.sorting_asc`).each(function () {
+                $(this).removeClass("sorting_asc");
+                var headerText = $(this).text();
+                headerText = `<a href="javascript:void(0)">${headerText}</a>`;
+                $(this).html(`${sortAscIcon}${headerText}`);
+                hasAscSort = true;
+            });
+            $(`#${tableId} th.sorting_desc`).each(function () {
+                $(this).removeClass("sorting_desc");
+                var headerText = $(this).text();
+                headerText = `<a href="javascript:void(0)">${headerText}</a>`;
+                $(this).html(`${sortDescIcon}${headerText}`);
+                hasDescSort = true;
+            });
+            $(`#${tableId} th.sorting`).each(function () {
+                $(this).removeClass("sorting");
+                var headerText = $(this).text();
+                headerText = `<a href="javascript:void(0)">${headerText}</a>`;
+                $(this).html(headerText);
+            });
+
+            if (hasAscSort === false && hasDescSort === false && isDefaultSorting) {
+                $(`#${tableId} th.defaultSortingCol`).each(function () {
+                    $(this).removeClass("sorting_desc");
+                    var headerText = $(this).text();
+                    headerText = `<a href="javascript:void(0)">${headerText}</a>`;
+                    $(this).html(`${sortDescIcon}${headerText}`);
+                });
+            }
+        }
+
+        function updateTableComponents() {
+            $(".dataTables_info").addClass("p-0");
+            $(".dataTables_length").find("label").addClass("d-flex align-items-center gap-2 text-muted");
+            $(".dataTables_length").find("select").removeAttr("class").addClass("form-select form-select-sm w-auto");
+            $(".dataTables_length").find("select").on("change", function () {
+                window.scrollTo(0, 0);
+            });
+        }
+
+        function generateLabelModel() {
+            const id = $('#hdnId').val();
+            const label = $('#ContentPlaceHolder1_hdnLabelFilter').val();
+
+            return { id: id, label: label, subCategoryId: currentTab };
+        }
+
+        function activeTab(selectedTab) {
+            const subCategoryId = $(selectedTab).data("sub-category-id");
+            currentTab = subCategoryId;
+
+            if (!visitedTabDictionary["tab-" + subCategoryId]) {
+                visitedTabDictionary["tab-" + subCategoryId] = true;
+                $('#table-subcatid-' + subCategoryId).DataTable().ajax.reload();
+            }
+
+            updateUrl(subCategoryId)
+        }
+
+        function updateUrl(subCatId) {
+            let queryString = `subcatid=${subCatId}`;
+
+            let length = queryStringDictionary["length_" + subCatId];
+            if (length) {
+                if (length < 0) {
+                    length = 7;
+                }
+                queryString += `&size=${length}`;
+            }
+
+            const start = queryStringDictionary["start_" + subCatId];
+            if (start !== undefined) {
+                queryString += `&start=${start}`;
+            }
+
+            const col = queryStringDictionary["col_" + subCatId];
+            if (col !== undefined) {
+                queryString += `&col=${col}`;
+            }
+
+            const order = queryStringDictionary["order_" + subCatId];
+            if (order !== undefined) {
+                queryString += `&order=${order}`;
+            }
+
+            const baseUrl = window.location.href.split("?")[0];
+            history.pushState("", document.title, `${baseUrl}?${queryString}`);
+        }
+
+        function handleTokenSearch(el) {
+            const self = $(el);
+            if (!self || self.val() == "") {
+                $("#hdnSearchText").val("");
+            }
+        }
+    </script>
+
+    <script src="/assets/vendor/fast-average-color/index.browser.min.js?v=25.7.1.2"></script>
+    <script>
+        let currentTheme = document.querySelector('html').dataset.bsTheme;
+        let avatars = document.querySelectorAll(".js-token-avatar");
+        const fac = new FastAverageColor();
+
+        const showColorsForImage = function (avatars) {
+            for (let i = 0; i < avatars.length; ++i) {
+                fac.getColorAsync(avatars[i])
+                    .then(color => {
+                        avatars[i].removeAttribute('style');
+
+                        if ((currentTheme === 'dark' && !isLight(color.value, false)) || (currentTheme === 'dim' && !isLight(color.value, false))) {
+                            avatars[i].setAttribute('style', "filter: invert(1) grayscale(100);");
+                        }
+                    })
+                    .catch(e => {
+                    });
+            }
+
+        }
+
+        const isLight = function (color, isBackground = true) {
+            const brightness = ((color[0] * 299) + (color[1] * 587) + (color[2] * 114)) / 1000;
+            return brightness > (isBackground ? 190 : 70);
+        }
+
+        const observer = new MutationObserver((mutationList, observer) => {
+            for (const mutation of mutationList) {
+                if (mutation.type === "attributes") {
+                    currentTheme = document.querySelector('html').dataset.bsTheme;
+                    showColorsForImage(avatars);
+                }
+            }
+        });
+
+        observer.observe(document.querySelector('html'), {
+            attributeFilter: ['data-bs-theme']
+        });
+
+        showColorsForImage(avatars);
+    </script>
+
+    <!-- JS Init. -->
+    <script>
+        (function () {
+            // INPUT FOCUS (DROPDOWN)
+            // =======================================================
+            if (document.getElementById("erc20TokenSearchButton") !== null) {
+                document.getElementById("erc20TokenSearchButton").addEventListener("click", () => {
+                    if (!((('ontouchstart' in window)
+                        || (navigator.maxTouchPoints > 0)
+                        || (navigator.msMaxTouchPoints > 0))
+                        && window.innerWidth <= 991)) {
+                        document.getElementById("erc20TokenSearchInput").focus();
+                    }
+                });
+            }
+            let searchAttributes = {
+                'name': 'title',
+                'img': 'img',
+                'rate': 'rate',
+                'address': 'address',
+                'link': 'link',
+                'group': 'group',
+                'groupid': 'groupid',
+                'website': 'website',
+                'ps': 'ps',
+                'is_verified': 'is_checked'
+            }
+            blockChainSearchInit({
+                id: 'erc20TokenSearchInput',
+                isMainPanel: false,
+                classResultWrapper: 'mt-12',
+                attributes: searchAttributes
+            });
+        })();
+    </script>
+
+
+</body>
+</html>
